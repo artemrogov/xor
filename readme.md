@@ -16,3 +16,6 @@ OutputStream out = new CryptoOutputStream(socket.getOutputStream(), password);
 InputStream in = new CryptoInputStream(new FileInputStream("test.bin"), password);
 OutputStream out = new CryptoOutputStream(new FileOutputStream("test.bin"), password);
 ```
+
+Пакеты для шифрования и дешифрования потока cryptosocket
+Для шифрования и дешифрования файла stream2.
